@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  padding: 0;
+  margin:0;
+  background-color: lightblue;
+}
+
+header{
+  border: 5px solid black;
+  height: fit-content;
+  text-align: center;
+}
+
+section{
+  margin-top: 5%;
+}
+  
+.game{
+  display: block;
+  border: 5px solid black;
+  font-size: 12px;
+  text-align: center;
+  width: 60vw;
+  height: fit-content;
+  margin: auto;
+  background-color: lemonchiffon
+}
+
+#submit{
+  background-color: red;
+  width: fit-content;
+  height: 3vh;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+#computerChoice{
+  display: block;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  width: 60vw;
+  height: fit-content;
+  margin: auto;
+  background-color: red
+}
+
+#result{
+  display: block;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  width: 60vw; 
+  
+  height: fit-content;
+  margin: auto;
+  background-color: red
+}
+
+#scoreTracker{
+  display: block;
+  border: 5px solid black;
+  font-size: 20px;
+  text-align: center;
+  width: 60vw; 
+  height: fit-content;
+  margin: auto;
+  background-color: red;
+  color: white;
+}
+
+h1{
+  font-size: 15px;
+}
